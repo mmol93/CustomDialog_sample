@@ -5,6 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@android:color/transparent"
+    android:id="@+id/custom_dialog"
     >
 
     <LinearLayout
@@ -25,7 +26,7 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="개발하는 쩡대리"
+            android:text="커스텀 다이얼로그"
             android:layout_marginVertical="20dp"
             android:textSize="20sp"
             android:textStyle="bold"
